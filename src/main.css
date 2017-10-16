@@ -21,7 +21,7 @@
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 240px;
-  background-color: #777;
+  background-color: #D1F2EB;
 }
 .carousel-inner > .item > img {
   position: absolute;
@@ -44,14 +44,20 @@
 
 /* MARKETING
 -------------------------------------------------- */
-
 .marketing {
-  margin: 60px auto;
+    margin: 60px auto;
 }
 
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
 .marketing .col-md-4 {
   text-align: center;
   font-size: 16px;
+  
 }
 
 .marketing .col-md-4 .glyphicon {
@@ -61,6 +67,8 @@
   padding: 40px;
   color: #444;
 }
+
+
 
 
 /* STICKY FOOTER
@@ -87,6 +95,10 @@ footer {
   color: white;
   text-shadow: 1px 1px 1px black;
   padding: 40px 0;
+}
+.row{
+  margin-right: -15px;
+    margin-left: -15px;
 }
 
 /* RESPONSIVE CSS
